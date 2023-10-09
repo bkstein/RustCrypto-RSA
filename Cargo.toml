@@ -66,6 +66,8 @@ rustdoc-args = ["--cfg", "docsrs"]
 opt-level = 2
 
 [patch.crates-io ]
-pkcs1 = { git = "git@code.rsint.net:SWP/mirror/crates.io/RustCrypto-formats", rev = "4b0715e782a188cbdecfecf268836a2a2d2bc315" }
-pkcs8 = { git = "git@code.rsint.net:SWP/mirror/crates.io/RustCrypto-formats", rev = "4b0715e782a188cbdecfecf268836a2a2d2bc315" }
-spki = { git = "git@code.rsint.net:SWP/mirror/crates.io/RustCrypto-formats", rev = "4b0715e782a188cbdecfecf268836a2a2d2bc315" }
+der = { git = "ssh://git@code.rsint.net/SWP/mirror/crates.io/RustCrypto-formats", rev = "4b0715e782a188cbdecfecf268836a2a2d2bc315" }
+pkcs1 = { git = "ssh://git@code.rsint.net/SWP/mirror/crates.io/RustCrypto-formats", rev = "4b0715e782a188cbdecfecf268836a2a2d2bc315" }
+pkcs5 = { git = "ssh://git@code.rsint.net/SWP/mirror/crates.io/RustCrypto-formats", rev = "4b0715e782a188cbdecfecf268836a2a2d2bc315" }
+pkcs8 = { git = "ssh://git@code.rsint.net/SWP/mirror/crates.io/RustCrypto-formats", rev = "4b0715e782a188cbdecfecf268836a2a2d2bc315" }
+spki = { git = "ssh://git@code.rsint.net/SWP/mirror/crates.io/RustCrypto-formats", rev = "4b0715e782a188cbdecfecf268836a2a2d2bc315" }

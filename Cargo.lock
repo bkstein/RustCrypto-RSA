@@ -137,9 +137,8 @@ dependencies = [
 
 [[package]]
 name = "der"
-version = "0.7.8"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "fffa369a668c8af7dbf8b5e56c9f744fbd399949ed171606040001947de40b1c"
+version = "0.8.0"
+source = "git+ssh://git@code.rsint.net/SWP/mirror/crates.io/RustCrypto-formats?rev=4b0715e782a188cbdecfecf268836a2a2d2bc315#4b0715e782a188cbdecfecf268836a2a2d2bc315"
 dependencies = [
  "const-oid",
  "pem-rfc7468",
@@ -343,9 +342,8 @@ dependencies = [
 
 [[package]]
 name = "pkcs1"
-version = "0.7.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c8ffb9f10fa047879315e6625af03c164b16962a5368d724ed16323b68ace47f"
+version = "0.8.0"
+source = "git+ssh://git@code.rsint.net/SWP/mirror/crates.io/RustCrypto-formats?rev=4b0715e782a188cbdecfecf268836a2a2d2bc315#4b0715e782a188cbdecfecf268836a2a2d2bc315"
 dependencies = [
  "der",
  "pkcs8",
@@ -354,9 +352,8 @@ dependencies = [
 
 [[package]]
 name = "pkcs5"
-version = "0.7.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e847e2c91a18bfa887dd028ec33f2fe6f25db77db3619024764914affe8b69a6"
+version = "0.8.0"
+source = "git+ssh://git@code.rsint.net/SWP/mirror/crates.io/RustCrypto-formats?rev=4b0715e782a188cbdecfecf268836a2a2d2bc315#4b0715e782a188cbdecfecf268836a2a2d2bc315"
 dependencies = [
  "aes",
  "cbc",
@@ -369,9 +366,8 @@ dependencies = [
 
 [[package]]
 name = "pkcs8"
-version = "0.10.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "f950b2377845cebe5cf8b5165cb3cc1a5e0fa5cfa3e1f7f55707d8fd82e0a7b7"
+version = "0.11.0"
+source = "git+ssh://git@code.rsint.net/SWP/mirror/crates.io/RustCrypto-formats?rev=4b0715e782a188cbdecfecf268836a2a2d2bc315#4b0715e782a188cbdecfecf268836a2a2d2bc315"
 dependencies = [
  "der",
  "pkcs5",
@@ -642,9 +638,8 @@ checksum = "6e63cff320ae2c57904679ba7cb63280a3dc4613885beafb148ee7bf9aa9042d"
 
 [[package]]
 name = "spki"
-version = "0.7.2"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9d1e996ef02c474957d681f1b05213dfb0abab947b446a62d37770b23500184a"
+version = "0.8.0"
+source = "git+ssh://git@code.rsint.net/SWP/mirror/crates.io/RustCrypto-formats?rev=4b0715e782a188cbdecfecf268836a2a2d2bc315#4b0715e782a188cbdecfecf268836a2a2d2bc315"
 dependencies = [
  "base64ct",
  "der",
